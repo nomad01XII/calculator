@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Buttons/Button";
 import "./Numpad.css";
 
-const Keypad = () => {
+const NumPad = () => {
   return (
     <div className="keypad">
       <Button className="btn-r1c1" id="clear" value="C" />
@@ -27,4 +27,4 @@ const Keypad = () => {
   );
 };
 
-export default Keypad;
+export default NumPad ;
