@@ -3,7 +3,7 @@ import { createContext } from "react";
 /* eslint-disable no-eval */
 import React, { useState } from "react";
 const Context = createContext();
-
+ 
 
 //these are the acation, you can uncomment the logs in order to see them
 function ContextProvider({ children }) {
@@ -16,7 +16,7 @@ function ContextProvider({ children }) {
 
     if (id === "clear") {
       setDisplay(["0"]);
-    } else if (id === "number" || id === "dot" || id === "operator") {
+    } else if (id === "number" || id === "operator") {
       if (display.length <= 30) {
         setDisplay((prev) =>
           prev.length === 1 && prev[0] === "0" ? value : [...prev, value]
