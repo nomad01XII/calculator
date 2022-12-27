@@ -16,7 +16,7 @@ function ContextProvider({ children }) {
 
     if (id === "clear") {
       setDisplay(["0"]);
-    } else if (id === "number" || id === "dot" || id === "operator") {
+    } else if (id === "number" || id === "operator") {
       if (display.length <= 30) {
         setDisplay((prev) =>
           prev.length === 1 && prev[0] === "0" ? value : [...prev, value]
