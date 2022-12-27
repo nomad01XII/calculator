@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Display from "./components/Display/Display";
-import Keypad from "./components/Numpad/NumPad";
+import NumPad from "./components/Numpad/NumPad";
 
 function App() {
   return (
