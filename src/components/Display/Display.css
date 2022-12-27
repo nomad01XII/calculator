@@ -1,0 +1,23 @@
+.display {
+    display: flex;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digits {
+    width: 80%;
+    font-size: 4em;
+    text-align: end;
+    overflow-wrap: break-word;
+  }
+  
+  .digits-small {
+    width: 80%;
+    font-size: 2em;
+    text-align: end;
+    word-wrap: break-word;
+  }

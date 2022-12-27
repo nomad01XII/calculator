@@ -1,0 +1,31 @@
+.keypad {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    width: 90%;
+    height: 65%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    align-items: stretch;
+    justify-content: center;
+    gap: 4px 4px;
+  }
+  
+  .btn-r5c1 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+  }
+  
+  .btn-r5c2 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+  }
+  
+  .btn-r5c3 {
+    grid-row: 5/6;
+    grid-column: 4/5;
+  }
+  
+  .btn {
+    width: 75px;
+  }

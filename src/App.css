@@ -1,0 +1,12 @@
+.App {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  border: 1px dotted black;
+  background-color: rgb(58, 81, 111);
+}
