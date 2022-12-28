@@ -4,7 +4,7 @@ import "./Numpad.css";
 
 const NumPad = () => {
   return (
-    <div className="keypad">
+    <div className="NumPad">
       <Button className="btn-r1c1" id="clear" value="C" />
       <Button className="btn-r1c2" value="del" id="del" />
       <Button className="btn-r1c3" value="√" id="operator" />
