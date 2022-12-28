@@ -27,4 +27,8 @@ const NumPad = () => {
   );
 };
 
+<<<<<<< HEAD
 export default NumPad;
+=======
+export default NumPad ;
+>>>>>>> 2e32467e2af45c1bd7f9822abaae60bdd21621ab

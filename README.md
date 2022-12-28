@@ -1,4 +1,4 @@
-calculator app with contextApi
+calculator app with context
 
 
 # Getting Started with Create React App
